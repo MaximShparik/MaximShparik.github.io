@@ -12,10 +12,26 @@
         color: orange;
     }
 }
-
+@keyframes anime2 {
+    0% {
+        color: rgb(50, 194, 212);
+    }
+    33% {
+        color: rgb(235, 198, 67);
+    }
+    66% {
+        color: rgb(206, 2, 247);
+    }
+    100% {
+        color: rgb(237, 227, 87);
+    }
+}
 
 h1 {
     animation: anime infinite 3s linear;
+}
+h2 {
+    animation: anime2 infinite 3s linear;
 }
 
 body{
