@@ -909,6 +909,7 @@ video {
   }
   .third iframe {
     margin-top: -1px;
+    height: calc(100vh+1px);
   }
 }
 
@@ -933,8 +934,9 @@ video {
     margin-bottom: 80px;
   }
   .second__block:first-child, .second__block-img {
-    width: 100%;
-    max-height: 101vw;
+    width: 101%;
+    max-height: 100vw;
+    overflow: hidden;
   }
 }
 
