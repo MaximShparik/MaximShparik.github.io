@@ -202,8 +202,8 @@ $(function(){
   }
   if($( document ).width()<=1024||screen.width<=1024){
     $('.second__block:first-child').on('tap', function(){
-      alert('work')
-      $(this).toggleClass('hover')
+      // alert('work')
+      // $(this).toggleClass('hover')
     })
     $('.third__block-loader').css('display','flex')
     $('.third__block button:not(.video)').click(function (){
@@ -211,10 +211,10 @@ $(function(){
         $('.theme').css('display','none')
         $('.close').css('display','block')
         $('body').css('overflow','hidden')
-      },1100)
+      },800)
       $('html, body').animate({
         scrollTop: $("#iframe").offset().top
-      }, 1000)
+      }, 700)
 
     })
     $('.close').click(function(){
