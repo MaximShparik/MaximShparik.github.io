@@ -190,7 +190,6 @@ $(function(){
     })
   }
   if($( document ).width()<=1024||screen.width<=1024){
-    alert('work')
     $('.third__block-loader').css('display','flex')
     function scrollText(){
       var wt1 = $(window).scrollTop();
@@ -226,10 +225,10 @@ $(function(){
 
 
 
-  $('laber.checkbox1:before').click(function(){
+  $('#checkbox1').click(function(){
     $('body').toggleClass('dark')
   })
-  $('laber.checkbox2').click(function(){
+  $('#checkbox2').click(function(){
     if($('#checkbox2').is(':checked')){
       for(let i=0;i<TextFields.length;i++){
         $(TextFields[i]).html(TextRu[i])
