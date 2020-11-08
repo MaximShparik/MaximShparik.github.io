@@ -188,8 +188,7 @@ $(function(){
       }, 700)
 
     })
-  }
-  if($( document ).width()<=1024){
+  }else{
     $('.third__block-loader').css('display','flex')
     function scrollText(){
       var wt1 = $(window).scrollTop();
