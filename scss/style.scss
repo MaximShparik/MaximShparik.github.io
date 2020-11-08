@@ -83,6 +83,20 @@ video{
     }
   }
 }
+.close{
+  display: none;
+  position: fixed;
+  border-radius: 15px;
+  height: 30px;
+  width: 65px;
+  line-height: 30px;
+  text-align: center;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  background-color: black;
+}
 .theme{
   span{
     text-shadow: 5px solid white;
