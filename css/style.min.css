@@ -791,7 +791,8 @@ video {
 
 @media (max-width: 1024px) {
   body {
-    overflow: auto;
+    overflow-y: hidden;
+    overflow-x: auto;
   }
   section.first {
     height: 100vh;
