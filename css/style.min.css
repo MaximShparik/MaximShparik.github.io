@@ -117,6 +117,23 @@ video {
   background-color: rgba(74, 74, 74, 0.7);
 }
 
+.close {
+  display: none;
+  position: fixed;
+  border-radius: 15px;
+  height: 30px;
+  width: 65px;
+  line-height: 30px;
+  text-align: center;
+  top: 10px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  color: white;
+  background-color: black;
+}
+
 .theme {
   position: fixed;
   left: 10px;
