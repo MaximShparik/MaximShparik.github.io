@@ -13,24 +13,26 @@ $(function(){
   let AllSection = $('section')
   let TextFields = $('.lang')
   let TextRu = [
-    'Разрабатывал и создавал сайт для крупной польской строительной фирмы, так же помогал в создании сайта для beaty-студии. Сейчас активно развиваю собственное приложение написаное на JS, это бот для шопинга который нацелен на приобретение лимитированой одежды, есть несколько модулей для разный магазинов, так же для тех же целей написал несколько расширений которые с успехом используются.<br><br>Для сборки настольного приложения использовал Electron JS, подключил аутентификацию связанную с веб-сервером на Node JS, так же для построения логики приложения очень пригодился опят создания соцсети на React.',
-    'Работаю с: JS, React, HTML, CSS, SCSS, WordPress, Gulp, Node.JS, Electron JS, Python.<br>За 2 года успел поработать на фрилансе, так же написать несколько полноценных проектов на JS и Python.<br>Ниже на странице вы сможете увидеть примеры моих работ, сайтов и функционал написанного мною ПО, некоторые проекты я делал для заказчиков, некоторые для обучения и повышения своих навыков.<br>Несколько слов о моих проектах ты найдёшь под фотографией.',
-    'Потыкайте на кнопки и увидите, что я могу :)<br>Кликните дважды, чтобы перейти на сайт.',
+    'Разрабатывал и создавал сайт для курпной польской строительной фирмы, так же помогал в создании сайта для beaty-студии. Сейчас активно развиваю собственное приложение написаное на JS, это бот для шопинга который нацелен на приобретение лимитированой одежды, есть несколько модулей для разный магазинов, так же для тех же целей написал несколько расширений которые с успехом используются.<br><br>Для сборки настольного приложения использовал Electron JS, подключил аунтификацию связаную с веб-сервером на Node JS, так же для построения логики приложения очень пригодился опят создания соц-сети на React.',
+    'Работаю с: JS, React, HTML, CSS, SCSS, WordPress, Gulp, Node.JS, Electron JS, Python.<br>За 2 года успел поработать на фрилансе, так же написать несколько полноценных проектов на JS и Python.<br>Ниже на странице вы сможете увидеть примеры моих работ, сайтов и функционал написаного мною ПО, некоторые проекты я делал для заказчиков, некоторые для обучения и повышения своих навыков.<br>Несколько слов о моих проектах ты найдёшь под фотографией.',
+    'Потыкайте на кнопки и увидете, что я могу :)<br>Кликните дважды, чтобы перейти на сайт.',
+    'Загрузка...',
     'Здесь вы сможете найти контактную информацию.',
     'Тут ты можешь связаться со мной',
     'Кликни и напиши письмо',
     'Чтобы пообщаться со мной с глазу на глаз, найди мой ник maxxim13128',
-    'Здесь мы можем пообщаться не опасаясь дядей ФСБшников',
+    'Здесь мы можеи пообщаться не опасаясь дядей ФСБшников',
     'Если я сейчас в России, можете мне набрать, просто кликни',
-    'И напоследок, можем поскидывать мемы'
+    'И на последок, можем поскидывать мемы'
   ]
   let TextEn = [
-    'Designed and created a website for a large Polish construction company, also helped to create a website for a beauty studio. Now I am actively developing my own application written in JS, this is a shopping bot that is aimed at purchasing limited clothing, there are several modules for different stores, I also wrote several extensions for the same purposes that are successfully used. <br> <br> To build desktop applications used Electron JS, connected authentication associated with the webserver on Node JS, and the experience of creating a social network on React was very useful for building the application logic.',
+    'Designed and created a website for a large Polish construction company, also helped to create a website for a beaty studio. Now I am actively developing my own application written in JS, this is a shopping bot that is aimed at purchasing limited clothing, there are several modules for different stores, I also wrote several extensions for the same purposes that are successfully used. <br> <br> To build a desktop applications used Electron JS, connected authentication associated with the web server on Node JS, and the experience of creating a social network on React was very useful for building the application logic.',
     'I work with: JS, React, HTML, CSS, SCSS, WordPress, Gulp, Node.JS, Electron JS, Python. <br> For 2 years I managed to work freelance, I also wrote several full-fledged projects in JS and Python. <Br > Below on the page you can see examples of my work, sites and the functionality of the software I have written, I did some projects for customers, some for training and improving my skills. <br> You can find a few words about my projects under the photo.',
     'Click on the buttons and see what I can :) <br> Double click to go to the site.',
+    'Loading...',
     'Here you can find contact information.',
     'Here you can contact me',
-    'Click and write an email',
+    'Click and write a email',
     'To chat with me face to face, find my nickname maxxim13128',
     'Here we can communicate without fear of the FSB uncle',
     "If I'm in Russia now, you can dial me, just click",
@@ -291,13 +293,6 @@ $(function(){
         ]
       }
     }
-  })
-
-
-
-  $.get("https://www.instagram.com/maxim_shparik/?__a=1", function(data) {
-    $('.second__block-img').attr("src",data.graphql.user.edge_owner_to_timeline_media.edges[0].node.display_url)
-    $('.second__block:first-child').css('height',$('.second__block-img').width())
   })
 
 
